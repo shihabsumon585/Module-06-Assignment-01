@@ -16,7 +16,7 @@
 
 /* header style */
 .header {
-    background-image: url(../Assets/Hero-bg.png);
+    background-image: url(/Assets/Hero-bg.png);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -72,4 +72,36 @@
     border: none;
     border-radius: 15px;
     text-align: center;
+}
+
+/* Action Section style */
+.action-section {
+    margin: 100px 100px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.action-section h3 {
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+.action-section article {
+    font-size: 24px;
+    color: #252432;
+    margin: 0 300px 30px 0;
+}
+.btn-lunchlivepreview {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 22px 46px;
+    background-color: #4E47FF;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.action-section img {
+    border-radius: 50px;
 }
